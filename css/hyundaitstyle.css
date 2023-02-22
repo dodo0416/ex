@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+.inner {width: 100%;}
+section{height: auto;}
+h1{
+    font-size: 48px;
+    letter-spacing: unset;
+}
+.sec01 .inner{padding: 150px 0 0 0;}
+.sec01 .inner h2{font-size: 48px;}
+.sec01 .inner p{display: none;}
+.sec01 .inner a{
+    width: 262px;
+    height: 63px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sec02{
+    flex-direction: column;
+    height: 2810px;
+    text-align: center;  
+}
+.sec02 > .left {justify-content: center;}
+.sec02 > .right {justify-content: center;}
+.sec02 > .left .inner600{
+    position: unset;
+    justify-content: flex-start;
+    padding: 0;
+    height: 550px;
+}
+.sec02 > .left > .inner600 {
+    background: url(/imgs/hyundai/캡처.JPG)no-repeat 50% 50% /cover;
+    height: 350px;
+}
+

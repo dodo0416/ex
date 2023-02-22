@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+/* washcenter t */
+
+.inner{
+    width: 100%;
+    padding: 30px 30px 0 30px;
+    gap: 20px;
+}
+
+.sec{
+    width: 100%;
+    flex-direction: column;
+    gap: 20px;
+    text-align: unset;
+}
+.sec img { 
+    flex: 1 1 auto;
+    height: 170px;
+    width: 100%;
+    object-fit: cover;
+}
+.sec .txtbox{
+    gap: 30px;
+}
+.sec .txtbox h2{
+    font-size: 36px;
+}
+.sec:nth-child(2) img{order: unset;}
+
+
+

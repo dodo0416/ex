@@ -1,0 +1,37 @@
+@charset "utf-8";
+
+header{order: 1;}
+.sec01{order: 2;}
+.sec02{order: 4;}
+.sec03{order: 3;}
+.sec04{order: 6;}
+.sec05{order: 5;}
+.sec06{order: 7;}
+footer{order: 8;}
+.top{
+    width: 100%;
+    height: 45px;
+}
+.top > div > input.place{display: none;}
+.top > div > label{display: none;}
+.top .logo{
+    background: url(/imgs/pizzamaru/피자마루로고.png) no-repeat 50% 50% / 150px 45px;
+    width: 150px;
+    height: 45px;
+}
+.top .login a:nth-child(3),
+.top .login a:nth-child(4),
+.top .login a:nth-child(5){display: none;}
+
+.sec01{
+    height: 200px;
+    margin: 90px 0 0 0;
+}
+.sec01 .mainpage{height: 200px;}
+.sec01 .mainpage img{height: 200px;}
+.sec01 .swiper-pagination{display: none;}
+
+body{display: flex;
+flex-direction: column;}
+
+

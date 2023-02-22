@@ -1,0 +1,309 @@
+@charset "utf-8";
+.top{
+width: 100%;
+height: 60px;
+font-size: 12px;
+}
+.top > div > input.place{
+    width: 200px;
+    height: 30px;
+}
+.top > div > label{
+    width: 30px;
+    height: 30px;
+    background: url(/imgs/pizzamaru/위치이미지.png) no-repeat 50% 50% /30px 30px;
+}
+.top .logo{
+    background: url(/imgs/pizzamaru/피자마루로고.png) no-repeat 50% 50% / 150px 55px;
+    width: 150px;
+    height: 55px;
+}
+.top .login{
+    gap: 10px;
+}
+nav{
+    width: 100%;
+}
+nav.on::before{
+    width: 100%;
+    height: 604px;
+}
+nav .fa-solid{
+    font-size: 24px;
+}
+.gnb{
+    width: 100%;
+    gap:20px;
+}
+.gnb .gnbmenu{
+    font-size:16px;
+}
+.gnb .snb{
+    width: 90%;
+    gap:20px;
+    font-size:13px;
+}
+.gnb .snb li{ padding: 5px;}
+/* gnb li 안함 다완성 하고 확인하기 */
+.sec01{
+    height: 385px;
+    margin: 110px 0 0 0;
+    align-items: center;
+}
+.sec01 .mainpage{
+    width: 100%;
+    height: 350px;
+}
+.sec01 .mainpage img{
+    width: 100%;
+    height: 350px;
+}
+.sec01 .swiper-button-next,
+.sec01 .swiper-button-prev{
+    display: none;
+}
+.sec01 .swiper-pagination{bottom: 0px;}
+.sec02{
+    height: 450px;
+    width: 100%;
+}
+.sec02 .inner{
+    width: 100%;
+    height: 450px;
+}
+.sec02 h2{
+    width: 100%;
+    height: 43px;
+    font-size: 16px;
+    padding: 10px;
+}
+.sec02 .inner750{
+    width: auto;
+    height: 400px;
+    justify-content: space-evenly;
+}
+.sec02 .menu1,.sec02 .menu2,.sec02 .menu3{
+    width: 200px;
+}
+.sec02 .menu1 .hovermain, 
+.sec02 .menu2 .hovermain, 
+.sec02 .menu3 .hovermain{
+    width: 220px;
+    height: 400px;
+    gap: 30px;
+    background: url(/imgs/pizzamaru/고추마요.png)no-repeat 53% 0% / 250px 234px;
+    background-color: #1D3F2A;
+}
+.sec02 .menu2 .hovermain{
+    background: url(/imgs/pizzamaru/불고기피자.png)no-repeat 53% 0% / 250px 234px;
+    background-color: #1D3F2A;
+    }
+.sec02 .menu3 .hovermain{
+    background: url(/imgs/pizzamaru/돼지불백.png)no-repeat 72% 0% / 250px 234px;
+    background-color: #1D3F2A;
+}
+.hovermain .newbest p{
+    font-size: 20px;
+}
+.hovermain .pizza{
+    font-size: 24px;
+}
+.sec02 .menu1 .hoversub,
+.sec02 .menu2 .hoversub,
+.sec02 .menu3 .hoversub{
+    width: 220px;
+    height: 400px;
+    font-size: 15px;
+}
+.sec02 a{
+    font-size: 18px;
+}
+.sec02 .menu2 a{
+    position: relative;
+    top: 38px;}
+
+.sec03{
+    width: 100%;
+    height: 530px;
+}
+.sec03 .inner600{
+    width: 100%;
+    height: 500px;
+    flex-direction: column;
+}
+.sec03 .inner600 .order{
+    flex-direction: row;
+}
+.sec03 .inner600 .order1,
+.sec03 .inner600 .order2{
+    width: 100%;
+    height: 200px;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+.sec03 .inner600 .order1 {
+    background: url(/imgs/pizzamaru/배달주문하기.png) no-repeat 50% 50% / 196px 135px;
+}
+
+.sec03 .inner600 .order2 {
+    background: url(/imgs/pizzamaru/포장주문하기.png) no-repeat 50% 50% / 196px 135px;
+    border-left: solid 1px #000;
+    border-top: none;
+}
+.sec03 .order a{
+    font-size: 30px;
+}
+.sec03 .inner600 .order3{
+    width: 100%;
+    height: 300px;
+    justify-content: center;
+    border-left:none;
+    border-top: solid 1px; color: #000;
+}
+.sec03 .inner600 img{
+    width: 370px;
+    height: 280px;
+    border-left:none;
+}
+.sec04{height:270px;}
+.sec04 .inner{width: 100%;}
+.sec04 h2{
+    font-size: 20px;
+    height: 50px;
+}
+.sec04 .inner.h400{
+    height: 190px;
+}
+.sec04 .inner.h400 a{
+padding: 20px 0 20px 0;
+}
+.sec04 .inner i{
+    font-size: 50px;
+}
+.sec04 .inner span{
+    font-size: 15px;
+}
+.sec04 .inner.h400 a:hover i{ font-size: 80px;}
+.sec04 .inner.h400 a:hover span{font-size: 30px;}
+
+
+.sec05{height: 620px;}
+.sec05 .inner{
+    width: 100%;
+    height: 580px;
+    flex-direction: column;
+}
+.sec05 .inner .store{
+    width: 100%;
+    height: 350px;
+}
+.sec05 h3 {
+    font-size: 25px;
+}
+.sec05 .inner .main p{
+    font-size: 20px;
+}
+.sec05 .inner .store .main{
+    height: 300px;
+    width: 100%;
+    padding: 38px 0 0 0;
+}
+.sec05 .inner .store .side{
+    margin-top: 0px;
+    width: 50%;
+    border-bottom: solid 7px
+}
+
+.sec05 .inner .store2{
+    flex-direction: row;
+    width: 100%;
+    height: 250px ;
+}
+.sec05 .store2 .news1,
+.sec05 .store2 .news2{
+    width:50%;
+    height: 250px;
+    gap: 30px;
+    border-top: solid 1px #000;
+}
+.sec05 .store2 .news1{border-right: solid 1px #000;}
+.sec05 h4 {
+    font-size: 15px;
+    height: 60px;
+    gap:50px;
+}
+.sec05 .swiper p{
+    font-size: 13px;
+    width: 100%;
+}
+.sec05 .swiper-button-next{right: 105px;}
+.sec05 .swiper-button-prev{left: 105px;}
+
+.sec06{height: 280px;}
+.sec06 .inner {
+    width: 100%;
+    height: 250px;
+}
+.sec06 .inner .pizzainner{
+    width: 350px;
+    height: 225px;
+    gap: 20px;
+}
+.sec06 .inner h3{
+    font-size: 23px;
+    height: 35px;
+}
+.sec06 .inner p{
+    font-size: 12px;
+}
+.sec06 a{
+    font-size: 15px;
+    width: 140px;
+    height: 30px;
+}
+footer .inner{ 
+    gap: 10px;
+}
+footer .marusns{
+    width: 100%;
+    height: 55px;
+}
+footer .marusns a{
+    background: url(/imgs/pizzamaru/피자마루로고.png) no-repeat 50% 50% / 150px 50px;
+    width: 160px;
+    height: 60px;
+}
+footer .marusns .phone{
+    font-size: 12px;
+}
+footer .marusns .sns{
+    font-size: 30px;
+    gap:10px;
+}
+footer .maruinfo{
+    width: 100%;
+    height: 35px;
+    font-size: 15px;
+}
+footer .maruinfo2{
+    width: 100%;
+    height: 80px;
+    font-size: 12px;
+    padding: 0 0 0 0;
+}
+footer .maruinfo2 .food{
+    gap: 20px;
+    height: 20px;
+}
+footer .maruinfo2 .fax{
+    width: 100%;
+    height: 20px;
+    gap:44px;
+}
+footer .maruinfo2 span{
+    border-right:none;
+    width: 100%;
+    height: 100%;
+}
+footer .maruinfo2 .food span:nth-child(3){display: none;}
