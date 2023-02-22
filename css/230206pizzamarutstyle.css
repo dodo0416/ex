@@ -11,10 +11,10 @@ font-size: 12px;
 .top > div > label{
     width: 30px;
     height: 30px;
-    background: url(/imgs/pizzamaru/위치이미지.png) no-repeat 50% 50% /30px 30px;
+    background: url(/ex/imgs/pizzamaru/위치이미지.png) no-repeat 50% 50% /30px 30px;
 }
 .top .logo{
-    background: url(/imgs/pizzamaru/피자마루로고.png) no-repeat 50% 50% / 150px 55px;
+    background: url(/ex/imgs/pizzamaru/피자마루로고.png) no-repeat 50% 50% / 150px 55px;
     width: 150px;
     height: 55px;
 }
@@ -91,15 +91,15 @@ nav .fa-solid{
     width: 220px;
     height: 400px;
     gap: 30px;
-    background: url(/imgs/pizzamaru/고추마요.png)no-repeat 53% 0% / 250px 234px;
+    background: url(/ex/imgs/pizzamaru/고추마요.png)no-repeat 53% 0% / 250px 234px;
     background-color: #1D3F2A;
 }
 .sec02 .menu2 .hovermain{
-    background: url(/imgs/pizzamaru/불고기피자.png)no-repeat 53% 0% / 250px 234px;
+    background: url(/ex/imgs/pizzamaru/불고기피자.png)no-repeat 53% 0% / 250px 234px;
     background-color: #1D3F2A;
     }
 .sec02 .menu3 .hovermain{
-    background: url(/imgs/pizzamaru/돼지불백.png)no-repeat 72% 0% / 250px 234px;
+    background: url(/ex/imgs/pizzamaru/돼지불백.png)no-repeat 72% 0% / 250px 234px;
     background-color: #1D3F2A;
 }
 .hovermain .newbest p{
@@ -143,11 +143,11 @@ nav .fa-solid{
     align-items: center;
 }
 .sec03 .inner600 .order1 {
-    background: url(/imgs/pizzamaru/배달주문하기.png) no-repeat 50% 50% / 196px 135px;
+    background: url(/ex/imgs/pizzamaru/배달주문하기.png) no-repeat 50% 50% / 196px 135px;
 }
 
 .sec03 .inner600 .order2 {
-    background: url(/imgs/pizzamaru/포장주문하기.png) no-repeat 50% 50% / 196px 135px;
+    background: url(/ex/imgs/pizzamaru/포장주문하기.png) no-repeat 50% 50% / 196px 135px;
     border-left: solid 1px #000;
     border-top: none;
 }
@@ -270,7 +270,7 @@ footer .marusns{
     height: 55px;
 }
 footer .marusns a{
-    background: url(/imgs/pizzamaru/피자마루로고.png) no-repeat 50% 50% / 150px 50px;
+    background: url(/ex/imgs/pizzamaru/피자마루로고.png) no-repeat 50% 50% / 150px 50px;
     width: 160px;
     height: 60px;
 }

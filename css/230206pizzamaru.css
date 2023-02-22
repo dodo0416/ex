@@ -76,10 +76,10 @@ header{
     width: 40px;
     height: 40px;
     text-indent: -9000px;
-    background: url(/imgs/pizzamaru/위치이미지.png) no-repeat 50% 50% /40px 40px;
+    background: url(/ex/imgs/pizzamaru/위치이미지.png) no-repeat 50% 50% /40px 40px;
 }
 .top .logo{
-    background: url(/imgs/pizzamaru/피자마루로고.png) no-repeat 50% 50% / 200px 50px;
+    background: url(/ex/imgs/pizzamaru/피자마루로고.png) no-repeat 50% 50% / 200px 50px;
     display: inline-block;
     width: 200px;
     height: 70px;
@@ -182,12 +182,12 @@ nav.on .snb{
     height: 500px;
 }
 .sec01 .swiper-button-next{
-    background: url(/imgs/pizzamaru/메인오른쪽업뎃.png) no-repeat 50% 50% / 15px 15px;
+    background: url(/ex/imgs/pizzamaru/메인오른쪽업뎃.png) no-repeat 50% 50% / 15px 15px;
     right:535px ;
     top:450px;
 }
 .sec01 .swiper-button-prev{
-    background: url(/imgs/pizzamaru/메인왼쪽업뎃.png) no-repeat 50% 50% / 15px 15px;
+    background: url(/ex/imgs/pizzamaru/메인왼쪽업뎃.png) no-repeat 50% 50% / 15px 15px;
     left: 535px;
     top: 450px;
 }
@@ -246,7 +246,7 @@ nav.on .snb{
 .sec02 .menu3 .hovermain{
     width: 380px;
     height: 690px;
-    background: url(/imgs/pizzamaru/고추마요.png)no-repeat -50% 0% / 380px 370px;
+    background: url(/ex/imgs/pizzamaru/고추마요.png)no-repeat -50% 0% / 380px 370px;
     background-color: #1D3F2A;
     border-radius: 50px;
     display: flex;
@@ -259,11 +259,11 @@ nav.on .snb{
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
 }
 .sec02 .menu2 .hovermain{
-    background: url(/imgs/pizzamaru/불고기피자.png)no-repeat -50% 0% / 380px 370px;
+    background: url(/ex/imgs/pizzamaru/불고기피자.png)no-repeat -50% 0% / 380px 370px;
     background-color: #1D3F2A;
 }
 .sec02 .menu3 .hovermain{
-    background: url(/imgs/pizzamaru/돼지불백.png)no-repeat -50% 0% / 380px 370px;
+    background: url(/ex/imgs/pizzamaru/돼지불백.png)no-repeat -50% 0% / 380px 370px;
     background-color: #1D3F2A;
 }
 .hovermain .newbest p{
@@ -358,10 +358,10 @@ box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.8);
     align-items: flex-end;
 }
 .sec03 .inner600 .order1 {
-    background: url(/imgs/pizzamaru/배달주문하기.png) no-repeat 50% 50% / 196px 175px;
+    background: url(/ex/imgs/pizzamaru/배달주문하기.png) no-repeat 50% 50% / 196px 175px;
 }
 .sec03 .inner600 .order2 {
-    background: url(/imgs/pizzamaru/포장주문하기.png) no-repeat 50% 50% / 196px 175px;
+    background: url(/ex/imgs/pizzamaru/포장주문하기.png) no-repeat 50% 50% / 196px 175px;
     border-top: solid 1px #000;
 }
 .sec03 .order a{
@@ -531,11 +531,11 @@ box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.8);
     justify-content: center;
 }
 .sec05 .swiper-button-next{
-    background: url(/imgs/pizzamaru/공지사항오른쪽.png) no-repeat 50% 50% / 10px 15px;
+    background: url(/ex/imgs/pizzamaru/공지사항오른쪽.png) no-repeat 50% 50% / 10px 15px;
     right: 175px;
 }
 .sec05 .swiper-button-prev{
-    background: url(/imgs/pizzamaru/공지사항왼쪽.png) no-repeat 50% 50% / 10px 15px;
+    background: url(/ex/imgs/pizzamaru/공지사항왼쪽.png) no-repeat 50% 50% / 10px 15px;
     left: 175px;
 }
 .sec05 .swiper-button-next::after,.sec05 .swiper-button-prev::after {display: none;}
@@ -547,7 +547,7 @@ box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.8);
     align-items: center;
 }
 .sec06 .inner {
-    background: url(/imgs/pizzamaru/메인Section6inner.png) no-repeat 50% 50% ; 
+    background: url(/ex/imgs/pizzamaru/메인Section6inner.png) no-repeat 50% 50% ; 
     width: 1200px;
     height: 360px;
     margin: 0 auto;
@@ -605,7 +605,7 @@ footer .marusns{
     border-bottom: solid 1px #ABA7A7;
 }
 footer .marusns a{
-    background: url(/imgs/pizzamaru/피자마루로고.png) no-repeat 50% 50% / 200px 45px;
+    background: url(/ex/imgs/pizzamaru/피자마루로고.png) no-repeat 50% 50% / 200px 45px;
     width: 200px;
     height: 100px;
     text-indent: -9000px;
