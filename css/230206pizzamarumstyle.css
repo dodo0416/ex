@@ -1,5 +1,96 @@
 @charset "utf-8";
 
+
+.top{
+    width: 100%;
+    height: 55px;
+}
+.top > div > input.place{display: none;}
+.top > div > label{display: none;}
+.top .logo{
+    background: url(/ex/imgs/pizzamaru/피자마루로고.png) no-repeat 50% 50% / 150px 45px;
+    width: 150px;
+    height: 45px;
+}
+.top .login a:nth-child(3),
+.top .login a:nth-child(4),
+.top .login a:nth-child(5){display: none;}
+
+.top > .mobile {
+    display: block;
+    font-size: 27px;
+    cursor: pointer;
+    z-index: 100;
+}
+nav{display: none;}
+nav.on{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+/* nav.on::before{display: none;} */
+nav .fa-solid{display: none;}
+.gnb{width: 100%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 85px;
+    gap: 60px;
+}
+
+.gnb .snb{
+    gap:0px;
+    top:0px;
+    position: relative;
+}
+.gnb > li{
+    height: auto;
+    width: 100%;
+}
+
+.gnb div{height: auto;
+flex-direction: column;
+align-items: center;}
+
+.gnb .snb li{ padding: 10px;
+border-bottom: none;
+}
+
+.gnb div:hover .snb,
+nav.on .snb{
+    display: none;
+}
+
+.gnb .plus {
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    height: 110px;
+    gap: 30px;
+    color: #000;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+}
+.gnb .plus_1,
+.gnb .plus_2{
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.sec01{
+    height: 200px;
+    margin: 55px 0 0 0;
+}
+.sec01 .mainpage{height: 200px;}
+.sec01 .mainpage img{height: 200px;}
+.sec01 .swiper-pagination{display: none;}
+
+body{display: flex;
+flex-direction: column;}
 header{order: 1;}
 .sec01{order: 2;}
 .sec02{order: 4;}
@@ -8,30 +99,116 @@ header{order: 1;}
 .sec05{order: 5;}
 .sec06{order: 7;}
 footer{order: 8;}
-.top{
-    width: 100%;
-    height: 45px;
+
+.sec03 .inner600 .order3{display: none;}
+.sec03{height: 80px;}
+.sec03 .inner600{height: 80px;}
+.sec03 .inner600 .order1,
+.sec03 .inner600 .order2{
+    height: 80px;
+    background: none;
+    justify-content: center;
+    border-bottom: solid 1px;
 }
-.top > div > input.place{display: none;}
-.top > div > label{display: none;}
-.top .logo{
-    background: url(/imgs/pizzamaru/피자마루로고.png) no-repeat 50% 50% / 150px 45px;
+.sec03 .order a{
+    font-size: 20px;
+}
+.sec02{height: 210px;}
+.sec02 .inner{height: 210px;}
+.sec02 h2{
+    height: 30px;
+    font-size: 16px;
+}
+.sec02 .inner750{
+    height: 178px;
+    align-items: center;
+}
+.sec02 .menu1,.sec02 .menu2,.sec02 .menu3{
     width: 150px;
-    height: 45px;
 }
-.top .login a:nth-child(3),
-.top .login a:nth-child(4),
-.top .login a:nth-child(5){display: none;}
-
-.sec01{
-    height: 200px;
-    margin: 90px 0 0 0;
+.sec02 .menu1 .hovermain, 
+.sec02 .menu2 .hovermain, 
+.sec02 .menu3 .hovermain{
+    width: 150px;
+    height: 160px;
+    background: url(/ex/imgs/pizzamaru/고추마요.png)no-repeat 53% 0% / 96px 90px;
+    background-color: #1D3F2A;
 }
-.sec01 .mainpage{height: 200px;}
-.sec01 .mainpage img{height: 200px;}
-.sec01 .swiper-pagination{display: none;}
+.sec02 .menu2 .hovermain{
+    background: url(/ex/imgs/pizzamaru/불고기피자.png)no-repeat 53% 0% / 96px 90px;
+    background-color: #1D3F2A;
+    }
+.sec02 .menu3 .hovermain{
+    background: url(/ex/imgs/pizzamaru/돼지불백.png)no-repeat 72% 0% / 96px 90px;
+    background-color: #1D3F2A;
+}
+.hovermain .newbest p{display: none;}
+.hovermain .pizza{
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top:15px;
+}
+.sec02 .menu1 .hoversub,
+.sec02 .menu2 .hoversub,
+.sec02 .menu3 .hoversub{
+    width: 150px;
+    height: 160px;
+    font-size: 10px;
+    gap: 0px;
+    margin-bottom: 0px;
+}
+.sec02 .menu1 .hoversub p,
+.sec02 .menu2 .hoversub p,
+.sec02 .menu3 .hoversub p{
+    position: relative;
+    top: 0px;
+}
+.sec02 a{
+    display: none;
+}
+.sec05{height: 320px;}
+.sec05 .inner{height: 320px;}
+.sec05 .inner .store{height: 320px;}
 
-body{display: flex;
-flex-direction: column;}
+.sec05 .inner .store2{display: none;}
+.sec05 h3 {font-size: 20px;}
+.sec05 .inner .main p{font-size: 15px;}
+.sec05 .inner input{font-size: 10px;}
+.sec05 .inner i{
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.sec04{height:200px;}
+.sec04 .inner{height: 150px;}
+.sec04 h2{
+    font-size: 16px;
+    height: 30px;
+}
+.sec04 .inner.h400{
+    height: 115px;
+    margin: 10px 0;
+}
+.sec04 .inner.h400 a:hover i{ font-size: 50px;}
+.sec04 .inner.h400 a:hover span{font-size: 15px;}
 
+.sec06{display: none;}
 
+footer .inner{ gap: 0px;}
+footer .marusns{height: 60px;}
+footer .marusns a{
+    background: url(/ex/imgs/pizzamaru/피자마루로고.png) no-repeat 50% 50% / 80px 45px;
+    width: 80px;
+    height: 50px;
+}
+footer .marusns .phone{
+    font-size: 10px;
+    display: flex;
+    flex-direction: column;
+}
+footer .marusns .sns{font-size: 20px;}
+footer .maruinfo{display: none;}
+footer .maruinfo2{display: none;}

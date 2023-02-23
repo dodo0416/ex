@@ -33,9 +33,18 @@ var swipermainpage6 = new Swiper(".mainpage6", {
 });
 
 $(function () {
-  $(".inner i").click(function () {
+  $("nav.inner i").click(function () {
     $("nav").toggleClass("on");
     $(this).toggleClass("fa-xmark")
   });
 
+  $(".mobile").click(function () {
+    $("nav").toggleClass("on");
+    $(this).toggleClass("fa-xmark")
+  });
+
+  $('.gnbmenu').click(function () {
+    $(this).next(".snb").stop().slideToggle(300);
+    return false
+  });
 });

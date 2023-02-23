@@ -61,6 +61,7 @@ header{
 .top > div{
     display: flex;
 }
+.top > .mobile {display: none;}
 .top > div > input.place{
     width: 262px;
     height: 39px;
@@ -168,6 +169,8 @@ nav .fa-solid{
 nav.on .snb{
     display: flex;
 }
+
+.gnb .plus {display: none;}
 .sec01{
     width: 100%;
     height: 610px;
